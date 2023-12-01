@@ -1,0 +1,35 @@
+:root {
+  font-family: 'Plus Jakarta Sans', system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  font-weight: 500;
+
+  /* COLORS */
+  --pale-purple: hsl(234, 25%, 52%);
+  --dark-blue: hsl(234, 53%, 16%);
+  --gray-color: hsl(233, 10%, 56%);
+  --bright-pink: hsl(341, 92%, 62%);
+  --pale-pink: hsl(341, 100%, 83%);
+  --white-color: hsl(0, 0%, 100%);
+  --primary-gradient: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+  --secondary-gradient: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+}
+
+body {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
