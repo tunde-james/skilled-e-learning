@@ -1,3 +1,6 @@
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyles = createGlobalStyle`
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -152,3 +155,7 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+`;
+
+export default GlobalStyles;

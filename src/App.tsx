@@ -1,11 +1,14 @@
+import GlobalStyles from './GlobalStyles';
 import Navbar from './components/navbar/navbar';
-import styles from './App.module.css';
+import Courses from './components/courses/courses';
 
 function App() {
   return (
-    <div className={styles.container}>
+    <>
       <Navbar />
-    </div>
+      <Courses />
+      <GlobalStyles />
+    </>
   );
 }
 

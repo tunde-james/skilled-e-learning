@@ -12,11 +12,12 @@
   --white-color: hsl(0, 0%, 100%);
   --primary-gradient: linear-gradient(180deg, #ff6f48, #f02aa6);
   --secondary-gradient: linear-gradient(180deg, #4851ff, #f02aa6);
-  /* background-image: linear-gradient(180deg, red, yellow); */
+  --courses-gradient: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
 }
 
 body {
   font-size: 1rem;
+  font-weight: 500;
 }
 
 a {
@@ -29,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.5rem; /* 40px */
 }
 
 h3 {
