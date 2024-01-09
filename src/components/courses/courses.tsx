@@ -63,6 +63,7 @@ function Courses() {
 const Wrapper = styled.main`
   padding-block-start: 66px;
   background-image: var(--courses-gradient);
+  border-radius: 10px;
 `;
 
 const Container = styled.div`
@@ -72,10 +73,15 @@ const Container = styled.div`
 
   @media (min-width: 768px) {
     padding-inline: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
   }
 
   @media (min-width: 1024px) {
     padding-inline: 80px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
   }
 `;
 
@@ -86,6 +92,7 @@ const PopularCourses = styled.div`
   padding-inline: 28px;
   border-radius: 10px;
   margin-block-end: 40px;
+  border-radius: 10px;
 
   h2 {
     max-width: 286px;
@@ -101,6 +108,7 @@ const CourseList = styled.div`
   flex-direction: column;
   margin-bottom: 46px;
   padding-inline: 28px;
+  border-radius: 10px;
   background-color: var(--white-color);
 
   h3 {
@@ -109,6 +117,7 @@ const CourseList = styled.div`
 
   p {
     padding-block-start: 16px;
+    width: 286px;
   }
 `;
 
