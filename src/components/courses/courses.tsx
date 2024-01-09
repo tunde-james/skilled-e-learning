@@ -62,6 +62,7 @@ function Courses() {
 
 const Wrapper = styled.main`
   padding-block-start: 66px;
+  padding-block-end: 80px;
   background-image: var(--courses-gradient);
   border-radius: 10px;
 `;
