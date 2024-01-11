@@ -73,6 +73,7 @@ const Container = styled.div`
   padding-inline: 16px;
 
   @media (min-width: 768px) {
+    padding-block-start: 150px;
     padding-inline: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr;
